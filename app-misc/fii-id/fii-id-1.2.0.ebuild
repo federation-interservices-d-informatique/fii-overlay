@@ -4,13 +4,13 @@
 EAPI=7
 CRATES="
 cfg-if-0.1.10
-getrandom-0.2.0
+getrandom-0.1.14
 libc-0.2.74
 ppv-lite86-0.2.8
-rand-0.8.0
-rand_chacha-0.3.0
-rand_core-0.6.0
-rand_hc-0.3.0
+rand-0.7.3
+rand_chacha-0.2.2
+rand_core-0.5.1
+rand_hc-0.2.0
 wasi-0.9.0+wasi-snapshot-preview1
 "
 
