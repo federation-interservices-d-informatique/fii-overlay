@@ -24,7 +24,7 @@ LICENSE="Apache-2.0 Apache-2.0 WITH LLVM-exception MIT"
 SLOT="0"
 KEYWORDS="amd64"
 IUSE=""
-
+S="${WORKDIR}/idgen-${PV}" # On old releases, idgen is the name of the gitHub repo
 DEPEND=""
 RDEPEND=""
 
