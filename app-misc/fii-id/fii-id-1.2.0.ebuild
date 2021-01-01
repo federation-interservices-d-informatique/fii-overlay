@@ -25,6 +25,8 @@ SLOT="0"
 KEYWORDS="amd64"
 IUSE=""
 S="${WORKDIR}/idgen-${PV}" # On old releases, idgen is the name of the gitHub repo
-DEPEND=""
+DEPEND="
+	!app-misc/fii-id-bin
+"
 RDEPEND=""
 
