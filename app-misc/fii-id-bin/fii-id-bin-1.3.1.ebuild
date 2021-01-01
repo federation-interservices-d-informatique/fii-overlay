@@ -5,8 +5,7 @@ EAPI=7
 
 DESCRIPTION="FII ID generator"
 HOMEPAGE="https://github.com/federation-interservices-d-informatique"
-SRC_URI="https://github.com/federation-interservices-d-informatique/fii-id/releases/download/${PV}/fii-id"
-
+SRC_URI="https://github.com/federation-interservices-d-informatique/fii-id/releases/download/${PV}/fii-id.tar.xz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64"
@@ -18,9 +17,9 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-S="${WORKDIR}"
+S="${WORKDIR}/fii-id"
 
 src_install() {
 	exeinto /usr/bin
-	doexe "${WORKDIR}/fii-id"
+	doexe "${S}/fii-id"
 }
