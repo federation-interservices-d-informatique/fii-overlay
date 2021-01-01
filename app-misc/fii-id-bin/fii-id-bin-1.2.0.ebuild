@@ -5,14 +5,16 @@ EAPI=7
 
 DESCRIPTION="FII ID generator"
 HOMEPAGE="https://github.com/federation-interservices-d-informatique"
-SRC_URI="https://github.com/federation-interservices-d-informatique/idgen/releases/download/1.2.0/fii-id.tar.gz"
+SRC_URI="https://github.com/federation-interservices-d-informatique/fii-id/releases/download/1.2.0/fii-id.tar.gz"
 
 LICENSE=""
 SLOT="0"
 KEYWORDS="amd64"
 IUSE=""
 
-DEPEND=""
+DEPEND="
+	!app-misc/fii-id-bin
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 

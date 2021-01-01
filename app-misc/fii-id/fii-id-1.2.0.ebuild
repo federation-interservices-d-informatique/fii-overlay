@@ -17,8 +17,8 @@ wasi-0.9.0+wasi-snapshot-preview1
 inherit cargo
 
 DESCRIPTION="Générateur d'ID FII"
-HOMEPAGE="https://github.com/federation-interservices-d-informatique/idgen"
-SRC_URI="https://github.com/federation-interservices-d-informatique/idgen/archive/${PV}.tar.gz $(cargo_crate_uris ${CRATES})"
+HOMEPAGE="https://github.com/federation-interservices-d-informatique/"
+SRC_URI="https://github.com/federation-interservices-d-informatique/fii-id/archive/${PV}.tar.gz $(cargo_crate_uris ${CRATES})"
 RESTRICT="mirror"
 LICENSE="Apache-2.0 Apache-2.0 WITH LLVM-exception MIT"
 SLOT="0"
