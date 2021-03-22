@@ -29,4 +29,3 @@ DEPEND="
 	!app-misc/fii-id-bin
 "
 RDEPEND=""
-
